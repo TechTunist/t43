@@ -1,0 +1,76 @@
+{% extends './base.html' %}
+
+{% block content %}
+
+<body>
+    <header class="showcase">
+        <div class="content">
+            
+            <div class="title">
+                The Tech Tunist
+            </div>
+            <div class="text">
+                Software Engineering
+            </div>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section class="services">
+        <div class="container grid-3 center">
+            <div>
+                <a href="https://github.com/TechTunist" target="blank">
+                    <i class="fab fa-github fa-3x"></i>  
+                    <h3>Portfolio</h3>
+                    <p>Check out my portfolio on Github</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/matt-jackson-84aa5323b/" target="blank">
+                    <i class="fab fa-linkedin-in fa-3x"></i>  
+                    <h3>LinkedIn</h3>
+                    <p>See my linkedIn profile</p>
+                </a>
+            </div>
+            <div><a href="mailto:mrmpjackson@gmail.com?subject=Potential New Project" target="blank">
+                    <i class="fas fa-envelope fa-3x"></i>  
+                    <h3>Email</h3>
+                    <h4>mrmpjackson@gmail.com</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about bg-light">
+        <div class="container">
+            <div class="grid-2">
+                <div class="center">
+                    <i class="fas fa-laptop-code fa-10x"></i>
+                </div>
+                <div>
+                    <h3>About The Tech Tunist</h3>
+                    <p>
+                        I have worked as a construction  industry professional for the last 15 years,
+                        but have always enjoyed exploring the inner workings of my computers over the years, often doubling up as a first line IT technician for 
+                        my office.
+                    </p>  
+                    <p>
+                        Over the last few years I have really dived deep into exploring the capability of computers big ad small, from classic Amstrad computers to Arduino microcontrollers to building my own desktop. I am now certified GFACT and GSEC in cyber security, have completed a software engineering bootcamp provided by HyperionDev in partnership with the University of Manchester, and am about to finish my BSc Computer Science degree from the Goldsmith's, University of London.
+                    </p>
+                    <p>
+                        I am passionate about using software to create valuable products or services while solving problems that society didn't know existed. My strongest technical skills include Python, Django, Linux, C++ and SQL
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="center bg-dark">
+        <p>TechTunist &copy; 2022</p>
+    </footer>
+
+</body>
+</html>
+
+{% endblock %}
